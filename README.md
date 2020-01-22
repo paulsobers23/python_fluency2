@@ -23,14 +23,11 @@ Use list comprehensions to answer the following questions
         {"name": 'Maya', "phone_number": '7653324599'}
       ]
 
-      valid_contacts(contacts);
-      """
-      [
+      valid_contacts(contacts) == [
         {name: 'Reuben', "phone_number": '9196218777'},
         {name: 'Laisha', "phone_number": '0123334766'},
         {name: 'Maya', "phone_number": '7653324599'}
       ]
-      """
 
 7. Create a function, `contact_names`, that takes an list of `contact` objects and returns an list of `contact` `name`s.
       ```python
@@ -41,5 +38,5 @@ Use list comprehensions to answer the following questions
         {name: 'Maya', "phone_number": '7653324599'}
       ]
 
-      contact_names(contacts) # ['Reuben', 'Laisha', 'Cielo', 'Maya']
+      contact_names(contacts) == ['Reuben', 'Laisha', 'Cielo', 'Maya']
       ```
